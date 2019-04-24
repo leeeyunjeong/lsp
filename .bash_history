@@ -266,3 +266,144 @@ git remote add yun https://github.com/leeeyunjeong/docker-ce.git
 git push -u yun master
 git pull yun master
 exit
+cd hello
+cd..
+xs
+cd
+git init branch
+ls
+cd branch
+ls
+vi hello.c
+git checkout -b system-1
+git int bran
+git init bran
+git add hello.c
+git commit -m "first commit"
+git branch
+git checkout -b branch
+git branch
+ls
+vi hello.c
+git add hello.c
+git commit -m "branch commit"
+cat hello.c
+git checkout master
+git checkout system-1
+git branch
+vi hello.c
+git merge branch
+vi hello.c
+git branch
+vi hello.c
+git add hello.c
+gir commit "system-1 branch"
+git commit "system-1 branch"
+vi hello.c
+ls
+git branch
+git add hello.c
+git merge brnach
+git status
+
+git add hello.c
+git commit -m "conflict merge"
+git branch
+git init
+git add *
+cd
+ls
+cd lsp
+mkdir lsp
+cd lsp
+git init
+git add *
+ls
+git add*
+git add *
+git add --all
+
+ls
+cd
+cd lsp
+cd
+ls
+git init
+ls -al
+git add --all
+git commit -m "lsp"
+git remote add origin https://github.com/leeeyunjeong/lsp.git
+git push -u origin master
+exit
+cd work
+ls
+cd 0404
+ls
+vi getpid.c
+vi segment.c
+vi wait2.c
+exit
+cd work
+ls
+mkdir 0418
+
+vi shelling out.c
+vi race.c
+ls
+vi race.c
+gcc -o race race.c
+vi race.c
+gcc -o race race.c
+vi race.c
+./race
+vi race.c
+vi vfork.c
+gcc -o vfork vfork.c
+
+vi vfork.c
+gcc -o vfork vfork.c
+vi vfork.c
+vi race.c
+vi double-fork.c
+gcc -o double-fork double-fork.c
+vi double-fork.c
+gcc -o double-fork double-fork.c
+vi double-fork.c\
+gcc -o double-fork double-fork.c
+vi double-fork.c\
+vi double-fork.c
+gcc -o double-fork double-fork.c
+vi double-fork.c
+gcc -o double-fork double-fork.c
+vi double-fork.c
+gcc -o double-fork double-fork.c
+vi double-fork.c
+gcc -o double-fork double-fork.c
+vi pope.c
+gcc -o pope pope.c
+vi pope.c
+gcc -o pope pope.c
+./pope
+vi pope.c
+exit
+ls
+cd work
+ls
+cd 0411
+ls
+exit
+cd work
+ls
+cd 0418
+ls
+cd 0411
+cd work
+cp a 0321 0418
+ls
+mv 0321 0418/
+ex
+cd work
+ls
+cd 0321
+ls
+exit
