@@ -478,3 +478,61 @@ git status
 git add .
 git commit -m "lsp"
 exit
+git init
+git status
+git add .
+git commit -m "test2"
+git remote add origin https://github.com/leeeyunjeong/test2.git
+git push -u origin master
+ls
+git init test2
+cd test2
+git commit
+git config --global user.email ant5999@naver.com
+git config --global user.name leeeyunjeong
+git add test2.c
+git commit -m "first commit"
+git remote add origin https://github.com/leeeyunjeong/test2.git
+git push -u origin master
+ls
+exit
+ls
+cd hello
+ls
+exit
+ls
+cd lsp
+ls
+exit
+git init
+git status
+cd woke
+cd work
+ls
+cd 0418
+ls
+vi forkpc2.c
+exit
+git init work
+git commit
+y
+work
+cd work
+ls
+cd 0418
+vi abc.c
+git init
+git status
+git add --all
+git commit -m "test"
+git remote add origin https://github.com/leeeyunjeong/test.git
+git push -u origin master
+exit
+git init
+git status
+cd work
+ls
+cd 0418
+ls
+cp abc.c abcd.c
+exit

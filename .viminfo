@@ -30,18 +30,20 @@
 	)
 
 # File marks:
-'0  9  8  ~/work/0418/forkpc2.c
-'1  13  21  ~/work/0418/forkpc2.c
-'2  48  0  ~/work/0418/forkpc2.c
-'3  1  0  ~/work/0418/forkpc2.c
-'4  40  10  ~/work/0418/forkpc.c
-'5  1  18  ~/work/0418/forkpc.c
-'6  33  0  ~/work/0418/forkpc.c
-'7  25  0  ~/work/0418/vfork.c
-'8  21  6  ~/work/0418/vfork.c
-'9  22  0  ~/work/0321/test4.c
+'0  2  0  ~/work/0418/abc.c
+'1  9  8  ~/work/0418/forkpc2.c
+'2  13  21  ~/work/0418/forkpc2.c
+'3  48  0  ~/work/0418/forkpc2.c
+'4  1  0  ~/work/0418/forkpc2.c
+'5  40  10  ~/work/0418/forkpc.c
+'6  1  18  ~/work/0418/forkpc.c
+'7  33  0  ~/work/0418/forkpc.c
+'8  25  0  ~/work/0418/vfork.c
+'9  21  6  ~/work/0418/vfork.c
 
 # Jumplist (newest first):
+-'  2  0  ~/work/0418/abc.c
+-'  1  0  ~/work/0418/abc.c
 -'  9  8  ~/work/0418/forkpc2.c
 -'  13  21  ~/work/0418/forkpc2.c
 -'  48  0  ~/work/0418/forkpc2.c
@@ -141,6 +143,12 @@
 -'  4  7  ~/work/0321/0321.c
 
 # History of marks within files (newest to oldest):
+
+> ~/work/0418/abc.c
+	"	2	0
+	^	2	0
+	.	1	17
+	+	1	17
 
 > ~/work/0418/forkpc2.c
 	"	9	8
