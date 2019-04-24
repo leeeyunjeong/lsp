@@ -30,18 +30,30 @@
 	)
 
 # File marks:
-'0  1  0  ~/test/test.c
-'1  18  0  ~/work/0418/pope.c
-'2  45  0  ~/work/0404/wait2.c
-'3  23  0  ~/work/0404/segment.c
-'4  1  0  ~/work/0404/getpid.c
-'5  8  10  ~/work/0418/pope.c
-'6  68  16  ~/work/0418/double-fork.c
-'7  70  20  ~/work/0418/double-fork.c
-'8  101  0  ~/work/0418/double-fork.c
-'9  67  0  ~/work/0418/double-fork.c
+'0  9  8  ~/work/0418/forkpc2.c
+'1  13  21  ~/work/0418/forkpc2.c
+'2  48  0  ~/work/0418/forkpc2.c
+'3  1  0  ~/work/0418/forkpc2.c
+'4  40  10  ~/work/0418/forkpc.c
+'5  1  18  ~/work/0418/forkpc.c
+'6  33  0  ~/work/0418/forkpc.c
+'7  25  0  ~/work/0418/vfork.c
+'8  21  6  ~/work/0418/vfork.c
+'9  22  0  ~/work/0321/test4.c
 
 # Jumplist (newest first):
+-'  9  8  ~/work/0418/forkpc2.c
+-'  13  21  ~/work/0418/forkpc2.c
+-'  48  0  ~/work/0418/forkpc2.c
+-'  1  0  ~/work/0418/forkpc2.c
+-'  40  10  ~/work/0418/forkpc.c
+-'  1  18  ~/work/0418/forkpc.c
+-'  33  0  ~/work/0418/forkpc.c
+-'  25  0  ~/work/0418/vfork.c
+-'  21  6  ~/work/0418/vfork.c
+-'  22  0  ~/work/0321/test4.c
+-'  1  0  ~/work/0321/test4.c
+-'  21  0  ~/work/0321/test1.c
 -'  1  0  ~/test/test.c
 -'  18  0  ~/work/0418/pope.c
 -'  13  13  ~/work/0418/pope.c
@@ -60,7 +72,6 @@
 -'  10  14  ~/work/0418/double-fork.c
 -'  1  0  ~/work/0418/double-fork.c
 -'  30  0  ~/work/0418/race.c
--'  21  6  ~/work/0418/vfork.c
 -'  24  0  ~/work/0418/vfork.c
 -'  1  0  ~/work/0418/vfork.c
 -'  29  0  ~/work/0418/race.c
@@ -110,7 +121,6 @@
 -'  66  0  ~/work/0321/test2.c
 -'  62  0  ~/work/0321/test2.c
 -'  65  0  ~/work/0321/test2.c
--'  21  0  ~/work/0321/test1.c
 -'  5  5  ~/work/0321/teat1.c
 -'  1  1  ~/work/0321/test3.c
 -'  28  28  ~/work/0321/test3.c
@@ -129,19 +139,106 @@
 -'  1  0  ~/hello.c
 -'  1  0  ~/hello.c
 -'  4  7  ~/work/0321/0321.c
--'  1  0  ~/work/0321/0321.c
--'  1  0  ~/hello.c
--'  1  0  ~/hello.c
--'  4  7  ~/work/0321/0321.c
--'  1  0  ~/work/0321/0321.c
--'  1  0  ~/hello.c
--'  1  0  ~/hello.c
--'  4  7  ~/work/0321/0321.c
--'  1  0  ~/work/0321/0321.c
--'  1  0  ~/hello.c
--'  1  0  ~/hello.c
 
 # History of marks within files (newest to oldest):
+
+> ~/work/0418/forkpc2.c
+	"	9	8
+	^	9	9
+	.	13	17
+	+	1	0
+	+	29	52
+	+	10	0
+	+	14	2
+	+	17	0
+	+	19	28
+	+	20	2
+	+	21	0
+	+	23	49
+	+	25	3
+	+	23	7
+	+	26	31
+	+	28	0
+	+	29	8
+	+	29	6
+	+	26	30
+	+	32	53
+	+	42	33
+	+	43	0
+	+	42	4
+	+	43	50
+	+	44	3
+	+	45	2
+	+	46	11
+	+	47	1
+	+	13	15
+	+	9	8
+	+	13	17
+
+> ~/work/0418/forkpc.c
+	"	40	10
+	^	40	11
+	.	49	0
+	+	1	19
+	+	3	19
+	+	5	0
+	+	13	30
+	+	28	29
+	+	32	1
+	+	13	26
+	+	33	1
+	+	1	1
+	+	59	2
+	+	58	1
+	+	57	1
+	+	56	0
+	+	55	2
+	+	55	0
+	+	53	9
+	+	51	0
+	+	50	0
+	+	49	0
+	+	49	0
+
+> ~/work/0418/vfork.c
+	"	25	0
+	^	21	7
+	.	21	6
+	+	1	17
+	+	4	14
+	+	23	1
+	+	21	6
+
+> ~/work/0321/test4.c
+	"	22	0
+	^	22	0
+	.	21	0
+	+	21	0
+
+> ~/work/0321/test1.c
+	"	21	0
+	^	21	0
+	.	16	14
+	+	7	19
+	+	14	0
+	+	3	9
+	+	1	17
+	+	2	14
+	+	19	1
+	+	5	7
+	+	11	10
+	+	18	5
+	+	11	21
+	+	12	0
+	+	13	10
+	+	3	12
+	+	7	18
+	+	20	0
+	+	6	0
+	+	8	0
+	+	10	0
+	+	14	1
+	+	16	14
 
 > ~/test/test.c
 	"	1	0
@@ -276,15 +373,6 @@
 	+	29	0
 	+	30	0
 	+	7	8
-
-> ~/work/0418/vfork.c
-	"	21	6
-	^	21	7
-	.	21	6
-	+	1	17
-	+	4	14
-	+	23	1
-	+	21	6
 
 > ~/work/0418/shelling
 	"	15	0
@@ -582,31 +670,6 @@
 	+	50	10
 	+	53	10
 	+	56	10
-
-> ~/work/0321/test1.c
-	"	21	0
-	^	21	0
-	.	16	14
-	+	7	19
-	+	14	0
-	+	3	9
-	+	1	17
-	+	2	14
-	+	19	1
-	+	5	7
-	+	11	10
-	+	18	5
-	+	11	21
-	+	12	0
-	+	13	10
-	+	3	12
-	+	7	18
-	+	20	0
-	+	6	0
-	+	8	0
-	+	10	0
-	+	14	1
-	+	16	14
 
 > ~/work/0321/teat1.c
 	"	5	5

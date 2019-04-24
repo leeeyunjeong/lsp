@@ -431,3 +431,45 @@ git push -u origin master
 git remote add origin https://github.com/leeeyunjeong/test.git
 git push -u origin master
 exit
+git init
+git add --all
+git commit -m "test"
+git remote add origin https://github.com/leeeyunjeong/test.git
+git push -u origin master
+ls
+git init
+git add .
+git status
+cd work
+ls
+cd 0321
+ls
+vi test1.c
+vi test4.c
+exit
+cd work
+ls
+cd 0418
+ls
+vi vfork.c
+vi forkpc.c
+gcc -o forkpc forkpc.c
+vi forkpc.c
+ls
+vi forkpc.c
+gcc -o forkpc forkpc.c
+./ forkpc.c
+./forkpc.c
+./forkpc
+vi forkpc2.c
+cp forkpc.c forkpc2.c
+vi forkpc2.c
+gcc -o forkpc2 forkpc2.c
+vi forkpc2.c
+gcc -o forkpc2 forkpc2.c
+vi forkpc2.c
+gcc -o forkpc2 forkpc2.c
+vi forkpc2.c
+gcc -o forkpc2 forkpc2.c
+vi forkpc2.c
+exit
