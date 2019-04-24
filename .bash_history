@@ -407,3 +407,27 @@ ls
 cd 0321
 ls
 exit
+sudo apt install git
+git init
+ls -al
+git add --all
+git commit -m "test"
+git remote add origin https://github.com/leeeyunjeong/test.git
+git init
+git remote add origin https://github.com/leeeyunjeong/test
+exit
+ls
+git init test
+ls
+cd test
+git commit
+git config --global user.emaill ant5999@naver.com
+git config --global user.name leeeyunjeong
+vi test.c
+git add test.c
+git commit -m "first commit"
+git remote add origin https://github.com/leeeyunjeong/test.git
+git push -u origin master
+git remote add origin https://github.com/leeeyunjeong/test.git
+git push -u origin master
+exit
