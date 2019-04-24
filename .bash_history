@@ -473,3 +473,8 @@ vi forkpc2.c
 gcc -o forkpc2 forkpc2.c
 vi forkpc2.c
 exit
+git init
+git status
+git add .
+git commit -m "lsp"
+exit
