@@ -1,7 +1,0 @@
- write to stdout
-printf by 7251: before fork
-printf by 7251: hi from parent
-printf by 7251: bye
-printf by 7251: before fork
- printf by 7252: hi from child
-printf by 7252: bye

@@ -536,3 +536,81 @@ cd 0418
 ls
 cp abc.c abcd.c
 exit
+git init
+git status
+y
+git init
+git add --all
+git commit -m "test"
+git remote add origin https://github.com/leeeyunjeong/test.git
+git push -u origin master
+exit
+ls
+cd work
+ls
+exit
+cd work
+ls
+cd mid-term
+ls
+vi 201621152-fork.c
+exit
+cd work
+ls
+mkdir tmp
+mkdir work
+cd work
+mkdir mid-term
+cd mid-term
+vi mid1.c
+gcc -o mid1 mid1.c
+./mid1
+vi mid1.c
+cd mid.c 201621152-fork.c
+cd mid1.c 201621152-fork.c
+
+cp mid1.c 201621152-fork.c
+vi 201621152-fork.c
+gcc -o mid1 mid1.c
+gcc -o 201621152-fork 201621152-fork.c
+vi 201621152-fork.c
+gcc -o 201621152-fork 201621152-fork.c
+vi 201621152-fork.c
+gcc -o 201621152-fork 201621152-fork.c
+./201621152-fork
+vi 201621152-fork.c
+vi 201621152-sum.c
+gcc -o 201621152-sum 201621152-sum.c
+vi 201621152-sum.c
+gcc -o 201621152-sum 201621152-sum.c
+vi 201621152-sum.c
+gcc -o 201621152-sum 201621152-sum.c
+vi 201621152-sum.c
+gcc -o 201621152-sum 201621152-sum.c
+vi 201621152-sum.c
+gcc -o 201621152-sum 201621152-sum.c
+wq
+vi 201621152-sum.c
+wq
+gcc -o 201621152-sum 201621152-sum.c
+vi 201621152-sum.c
+vi 201621152-sender.c
+vi 201621152-receiver.c
+vi 201621152-sum.c
+gcc -o 201621152-sum 201621152-sum.c
+wq
+vi 201621152-sum.c
+gcc -o 201621152-sum 201621152-sum.c
+vi 201621152-sum.c
+gcc -o 201621152-sum 201621152-sum.c
+vi 201621152-sum.c
+gcc -o 201621152-sum 201621152-sum.c
+vi 201621152-sum.c
+vi 201621152-seder.c
+gcc -o 201621152-sender 201621152-sender.c
+vi 201621152-seder.c
+gcc -o 201621152-sender 201621152-sender.c
+vi 201621152-seder.c
+vi 201621152-sum.c
+ls
+exit
