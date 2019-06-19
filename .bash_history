@@ -614,3 +614,375 @@ vi 201621152-seder.c
 vi 201621152-sum.c
 ls
 exit
+ls
+git init
+git status
+ls -al
+git add --all
+git commit -m "mid-term"
+git remote add origin https://github.com/leeeyunjeong/mid-term.git
+git push -u origin master
+exit
+cd
+ls
+cd work
+mkdir 0502
+cd 0502
+vi signal-check.c
+gcc -o signal-check signal-check.c
+vi signal-check.c
+gcc -o signal-check signal-check.c
+vi signal-check.c
+gcc -o signal-check signal-check.c
+./ signal-check
+./ signal-check.c
+./signal-check.c
+a.out signal-check.c
+gcc -o signal-check signal-check.c
+./signal-check
+vi signal-check.c
+cp signal-check.c signal-add.c
+vi signal-add.c
+gcc -o signal-add signal-add.c
+./signal-add
+vi sinal.c
+cp sinal.c sleep.c
+vi sleep.c
+vi sinal.c
+cp sinal.c signal.c
+vi signal.c
+cp signal.c signal2.c
+vi signal2.c
+gcc -o signal signal.c
+ls
+cp signal.c sigaction.c
+vi sigaction.c
+gcc -o sigaction sigaction.c
+vi sigaction.c
+gcc -o sigaction sigaction.c
+vi sigaction.c
+cp sigaction.c sigaction2.c
+vi sifaction2.c
+vi sigaction2.c
+gcc -o sigaction2 sigaction2.c
+vi sigaction2.c
+gcc -o sigaction2 sigaction2.c
+vi signal-send.c
+gcc -o signal-send signal-send.c
+vi signal-send.c
+cp signal-send.c signal-send2.c
+vi signal-send2.c
+gcc -o signal-send2 signal-send2.c
+vi signal-send.c
+vi sigaction.c
+cp sigaction.c signal-alarm.c
+vi signal-alarm.c
+gcc -o signal-alarm signal-alarm.c
+vi signal-alarm.c
+gcc -o signal-alarm signal-alarm.c
+./signal-alarm
+cp signal-alarm.c signal-block.c
+vi signal-block.c
+exit
+cd work
+cd 0502
+vi
+ls
+vi signal-add.c
+vi signal.c
+ls
+vi sleep.c
+gcc -o sleep sleep.c
+vi sleep.c
+gcc -o sleep sleep.c
+vi sleep.c
+gcc -o sleep sleep.c
+vi sleep.c
+gcc -o sleep sleep.c
+exit
+cd work
+ls
+cd 0509
+mkdir 0509
+cd 0509
+vi signal-pending.c
+gcc signal-pending.c
+vi signal-pending.c
+gcc signal-pending.c
+vi signal-suspend1.c
+gcc signal-suspend1.c
+vi signal-suspend2.c
+gcc signal-suspend2.c
+vi signal-suspend2.c
+clear
+vi stack.c
+gcc -g -o stack stack.c
+vi stack.c
+gdb stack.c
+vi stack.c
+gcc -g -o stack stack.c
+gdb stack.c
+gcc -g -o stack stack.c
+gdb stack.c
+vi 2.c
+gcc -g -o 2 2.c
+./2
+gdb 2
+vi 2.c
+gcc -g -o 2 2.c
+./2
+gdb 2
+vi 2.c
+gcc -g -o 2 2.c
+vi 2.c
+gcc -g -o 2 2.c
+vi 2.c
+gcc -g -o 2 2.c
+./2
+vi 2.c
+gcc -g -o 2 2.c
+./2
+vi 2.c
+gcc -g -o 2 2.c
+./2
+exit
+cd work
+cd 0509
+exit
+cd work
+cd 0516
+ls
+vi echoc.c
+cp echoc.c recive.c
+vi recive.c
+exit
+cd work
+mkdir 0516
+cd 0516
+clear
+vi echos.c
+gcc -o echos.c echos
+gcc -o echos echos.c
+vi echos.c
+vi echoc.c
+gcc -o echoc echoc.c
+./echoc
+./ echoc.c
+./ echoc
+
+./echoc
+./ echoc
+gcc -o echos echos.c
+./ echoㄴ
+./ echos
+./echos
+vi echos.c
+vi 
+cp echos.c calculation server.c
+cp echos.c calculation.c
+vi calculation.c 
+vi server.c
+cp echos.c server.c
+vi server.c
+vi echos.c
+vi server.c
+gcc -o server server.c
+vi server.c
+gcc -o server server.c
+vi server.c
+gcc -o server server.c
+vi server.c
+gcc -o server server.c
+vi server.c
+exit
+cd work
+ls
+mkdir 0530
+cd 0530
+vi pthread1.c
+gcc -o  pthread1 pthread1.c 
+vi pthread1.c
+gcc -o  pthread1 pthread1.c 
+vi pthread1.c
+gcc  pthread1.c -lpthread1 -o pthread1.c
+gcc  pthread1.c -lpthread1 -o pthread1
+gcc  pthread1.c -lpthread1 -opthread1
+gcc  pthread1.c -lpthread -o pthread
+cd work
+cd 0530
+docker version
+docker images
+ce work
+cd work
+cd 0530
+
+cd 0530
+docker images
+docker ps -al
+clear
+docker images
+docker pull Gestalt Platform
+docker pull nginx
+docker images
+docker rmi nginx
+docker images
+docker run -it ubuntu:16.04 /bin/bash
+docker ps
+docker run -it ubuntu /bin/bash
+ipcs
+ipcs | grep s1621152
+bc
+ls
+./test-sender 
+cd work
+mkdir 0613
+ls
+cd 0613
+ls
+message get
+msgget
+man msgsnd
+man msgctl
+vi msg1-sender.c
+gcc msg1-sender.c -o msg1-sender
+./msg1-sender
+gcc -o msg1-sender msg1-sender.c
+./msg1-sender
+./ msg1-sender
+gcc msg1-sender.c -o msg1-sender
+./ msg1-sender
+vi msg1-sender.c
+vi msg1-receiver.c
+gcc msg1-receiver.c
+a.out msg1-receiver
+a.out msg1-receiver.c
+gcc msg1-receiver.c -o msg1-receiver
+./ msg1-reciver
+ls
+vi msg1-receiver2.c
+gcc msg1-receiver.c
+./a.out
+gcc msg1-receiver.c -o receiver
+./receiver &
+gcc msg1-sender.c -o sender
+./sender &
+vi msg1-receiver3.c
+gcc msg2-reciver2.c -o receiver2
+gcc msg1-reciver2.c -o receiver2
+gcc msg1-receiver2.c -o receiver2
+./receiver2
+ipcs
+vi test-sender.c
+cp msg1-sender.c test-sender.c
+vi test-sender.c
+ipcs
+vi test-sender.c
+gcc test-sender.c -o test-sender
+tmux
+ls
+vi test-sender.c
+ipcs
+man msgctl
+gcc msg1-receiver3.c -o msg1-receiver3
+vi msg1-receiver3.c 
+vi msg1-sender.c
+vi msg1-receiver3.c 
+gcc msg1-sender.c -o msg1-sender
+./msg1-sneder
+./msg1-sender
+gcc msg1-receiver3.c -o msg1-receiver3
+./msg1-receiver3 1
+ipcs
+vi msg1-receiver3.c 
+vi msg1-sender.c
+vi msg1-receiver3.c 
+vi msg1-test.c
+cp msg1-receiver3.c msg1-test.c
+cp msg1-receiver3.c msg1-receiver4.c
+vi msg1-receiver4.c
+vi msg1-test.c
+cd work
+cd 0613
+ipcs
+vi shm1-writer.c
+vi shm1-reader.c
+vi shm1-writer.c
+vi shm1-reader.c
+gcc shm1-writer.c -o shm1-writer
+./shm1-writer
+./shm1-writer 1
+gcc shm1-reader.c -o shm1-reader
+./shm1-reader
+
+vi shm1-reader.c
+gcc shm1-reader.c -o shm1-reader
+./shm1-reader 1
+ipcs
+clear
+vi shm1-reader.c
+gcc shm1-reader.c -o shm1-reader
+./shm1-reader 1
+./shm1-reader 
+vi shm1-reader.c
+vi shm1-writer.c
+ipcs
+vi shm1-writer.c
+gcc shm1-reader.c -o shm1-reader
+./shm1-reader 
+vi shm1-writer.c
+ipcs
+vi shm1-writer.c
+gcc shm1-writer.c -o shm1-writer
+./shm1-writer
+ipcs
+clear
+vi shm1-writer.c
+gcc shm1-writer.c -o shm1-writer
+./shm1-writer
+vi shm1-writer.c
+gcc shm1-writer.c -o shm1-writer
+./shm1-writer
+vi shm2-ctl.c
+ipcs
+ipcrm shm 917510
+ipcs
+vi shm2-fork.c
+vi shm2-ctl.c
+
+vi shm2-ctl.c
+gcc shm2-ctl.c -o shm2-ctl
+./shm2-ctl
+ipcs
+vi shm2-ctl.c
+gcc shm2-ctl.c -o shm2-ctl
+./shm2-ctl
+
+man shmctl
+vi shm2-fork.c
+gcc shm2-fork.c -o shm2-fork
+./shm2-fork
+ls
+sudo apt install git
+cd work
+git
+git init hello
+ls
+cd hello
+git commit
+exit
+git
+git init hello
+cd hello
+git commit
+git config --global user.email ant5999@naver.com
+exit
+git
+sudo apt install git
+git init hello
+ls
+git config --global user.email ant5999@naver.com
+git config --global user.name leeeyunjeong
+cd hello
+git config --global user.email ant5999@naver.com
+git config --global user.name leeeyunjeong
+exit
