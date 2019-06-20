@@ -986,3 +986,79 @@ cd hello
 git config --global user.email ant5999@naver.com
 git config --global user.name leeeyunjeong
 exit
+git init
+git staatus
+git status
+ls -al
+git add --all
+git commit -m "test3"
+git remote add origin https://github.com/leeeyunjeong/test3.git
+git push -u origin master
+ls
+git init
+git status
+ls -al
+git add --all
+git commit -m "lsp"
+git remote add origin https://github.com/leeeyunjeong/lsp.git
+git push -u origin master
+git remote add origin https://github.com/leeeyunjeong/lsp.git
+git push -u origin master
+git init
+git status
+ls -al
+git add --all
+git commit -m "test3"
+git remote add origin https://github.com/leeeyunjeong/test3.git
+git push -u origin master
+exit
+cd work
+mkdir 0619
+cd 0619
+vi client.c
+vi pthread1.c
+exit
+cd work
+cd 0619
+vi messege queue.c
+gcc messege queue.c -o messege queue
+cp messege queue.c mq.c
+ls
+vi messege.c
+vi messege queue.c
+vi mq.c
+gcc mq.c -o mq
+wq
+vi mq.c
+ls
+vi client2.c
+vi smh2-fork.c
+vi smh1-ctl.c
+vi smh1-writer.c
+vi smh1-reader.c
+git init
+git status
+ls -al
+git add --all
+git commit -m "today"
+git remote add origin https://github.com/leeeyunjeong/today.git
+git push -u origin master
+exit
+ls
+mkdir work
+cd work
+mkdir 00
+cd 00
+ls
+vi client.c
+vi client2.c
+vi mq.c
+vi pthread1.c
+vi smch1-ctl.c
+vi smh1-reader.c
+vi smh1-writer.c
+vi smh2-fork.c
+exit
+ls
+wq
+cd work
